@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/cambiarPestanna.js"></script>
+
+<title></title>
+    </head>
+    <body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+      <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+    background: white;    
+}
+
+.contenedor{
+    width:600px;
+    margin: auto;
+    background: white;
+    color: black;
+
+    border-radius: 10px;
+    
+
+}
+
+.contenedor .titulo{
+    font-size: 3.5ex;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#pestanas {
+    float: top;
+    font-size: 3ex;
+    font-weight: bold;
+}
+
+#pestanas ul{
+    margin-left: -40px;    
+}
+
+#pestanas li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+
+    background: darkgrey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid black;
+
+    padding: 0px 20px 0px 20px;
+}
+
+#pestanas a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#contenidopestanas{
+    clear: both;  
+    background: white;
+
+    border-radius: 5px;
+
+    border: 2px solid black;
+    width: 523px;
+}
+
+
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid grey;
+  background-color: #f1f1f1;
+  width:20%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 90%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid black;
+  width: 80%;
+  border-left: none;
+  height: 300px;
+}
+h2{color:black;
+  font-size: 13px;}
+  h1{
+  color: blue; 
+  
+  text-align:center;
+  
+  font-family:Verdana;
+  
+  font-size:16px;
+  
+  }
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  }
+  th {
+  background-color: #96D4D4;
+  }
+</style>
+</head>
+<body>
+
+
+<marquee> Ayudanos a encontrarles su hogar </marquee>
+
+   <hr/>
+<IMG SRC="Linda-garra-de-perro-con-coraz-n-de-melocot-n-Auto-adhesivo-con-dibujo-de-Animal.jpg_q50.jpg" width="35px" ALIGN="TOP">
+<div style="float:right" ><span class="log">Hola,<a href="DatosUser.html">usuario</a></span>  </div>
+
+
+<h1>PET TO THE RESCUE </h1>
+
+
+<h3>Administrador</h3>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Usuarios </button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Registros  </button>
+
+</div>
+
+<div id="London" class="tabcontent">
+        <div class="contenedor">
+
+            <div id="pestanas">
+                <ul id="lista">
+                    <li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>Nuevos</a></li>
+                    <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>Todos</a></li>
+                    <li id="pestana4"><a href='javascript:cambiarPestanna(pestanas,pestana4);'>Estados</a></li>
+
+                </ul>
+            </div>
+            <div id="contenidopestanas">
+                <div id="cpestana1">
+<table>
+<tr>
+<th><strong>Tipo</strong></th>
+<th><strong>Nombre</strong></th>
+<th><strong>Apellido</strong></th>
+<th><strong>Correo</strong></th>
+<th><strong>Celular</strong></th>
+<th><strong>Pais</strong></th>
+<th><strong>Direccion</strong></th>
+<th><strong>Estado</strong></th>
+
+</tr>
+
+<tr>
+  <td></td>
+  <td>Jill</td>
+  <td>Smith</td>
+  <td>50</td>
+  <td>Jill</td>
+  <td>Smith</td>
+  <td>50</td>
+<td><a href=""style="text-decoration:none">Ver</a></li></td>
+
+</tr>
+<tr>
+  <td></td>
+  <td>Eve</td>
+  <td>Jackson</td>
+  <td>94</td>
+  <td>Eve</td>
+  <td>Jackson</td>
+  <td>94</td>
+<td><a href=""style="text-decoration:none">Ver</a></li></td>
+</tr>
+</table>
+</div>
+ 
+                <div id="cpestana2">
+<table>
+<tr>
+<th><strong>Tipo</strong></th>
+<th><strong>Nombre</strong></th>
+<th><strong>Apellido</strong></th>
+<th><strong>Correo</strong></th>
+<th><strong>Celular</strong></th>
+<th><strong>Pais</strong></th>
+<th><strong>Direccion</strong></th>
+<th><strong>Estado</strong></th>
+
+</tr>
+
+<tr>
+  <td></td>
+  <td>Jill</td>
+  <td>Smith</td>
+  <td>50</td>
+  <td>Jill</td>
+  <td>Smith</td>
+  <td>50</td>
+<td><a href=""style="text-decoration:none">Ver</a></li></td>
+
+</tr>
+<tr>
+  <td></td>
+  <td>Eve</td>
+  <td>Jackson</td>
+  <td>94</td>
+  <td>Eve</td>
+  <td>Jackson</td>
+  <td>94</td>
+<td><a href=""style="text-decoration:none">Ver</a></li></td>
+</tr>
+</table>
+
+
+
+                </div>
+                <div id="cpestana4">
+                <table>
+                <tr>
+                <th><strong>Tipo</strong></th>
+                <th><strong>Nombre</strong></th>
+                <th><strong>Apellido</strong></th>
+                <th><strong>Correo</strong></th>
+                <th><strong>Celular</strong></th>
+                <th><strong>Pais</strong></th>
+                <th><strong>Direccion</strong></th>
+                <th><strong>Estado</strong></th>
+                
+                </tr>
+                
+                <tr>
+                <td></td>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td><a href=""style="text-decoration:none">Ver</a></li></td>
+                
+                </tr>
+                <tr>
+                <td></td>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+                <td><a href=""style="text-decoration:none">Ver</a></li></td>
+                </tr>
+                </table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="Paris" class="tabcontent">
+        <div class="contenedor">
+<h2>        
+<p>Total de mascotas en ser:<p> 
+     
+     Adoptadas<button>Ver</button>
+     </p>
+     En espera<button>Ver</button>
+     </p>
+          Encontradas<button>Ver</button>
+          </p>
+               Perdidas<button>Ver</button>
+               </h2>
+        </div>
+        </div>
+        </div>
+        </div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+// Dadas la division que contiene todas las pestañas y la de la pestaña que se 
+// quiere mostrar, la funcion oculta todas las pestañas a excepcion de esa.
+function cambiarPestanna(pestannas,pestanna) {
+    
+    // Obtiene los elementos con los identificadores pasados.
+    pestanna = document.getElementById(pestanna.id);
+    listaPestannas = document.getElementById(pestannas.id);
+    
+    // Obtiene las divisiones que tienen el contenido de las pestañas.
+    cpestanna = document.getElementById('c'+pestanna.id);
+    listacPestannas = document.getElementById('contenido'+pestannas.id);
+    
+    i=0;
+    // Recorre la lista ocultando todas las pestañas y restaurando el
+    // padding de las pestañas.
+  while (typeof listacPestannas.getElementsByTagName('div')[i] != 'undefined'){
+    $(document).ready(function(){
+            $(listacPestannas.getElementsByTagName('div')[i]).css('display','none');
+            $(listaPestannas.getElementsByTagName('li')[i]).css('padding-bottom','');
+        });
+        i += 1;
+    }
+
+    $(document).ready(function(){
+        // Muestra el contenido de la pestaña pasada como parametro a la funcion,
+        // cambia el color de la pestaña y aumenta el padding para que tape el  
+        // borde superior del contenido que esta juesto debajo y se vea de este 
+        // modo que esta seleccionada.
+        $(cpestanna).css('display','');
+        $(pestanna).css('padding-bottom','2px'); 
+    });
+
+}
+
+
+</script>
+   
+</body>
+</html> 

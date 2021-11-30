@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+h1{
+color: blue; 
+
+ text-align:center;
+
+   font-family:Verdana;
+
+   font-size:16px;
+
+}
+
+h4{
+color: black;
+font-size: 15px;
+padding: 8px 10px;
+position: center;
+bottom: 8px;
+width: 100%;
+text-align: center;
+
+}
+
+html {
+	font-size: 16px;
+}
+
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
+}
+
+li {
+ float: left;
+}
+
+li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+li a:hover {
+ background-color: #111;
+ }
+ html {
+ font-size: 16px;
+ }
+
+h2{
+color:red;
+}
+
+body{
+ margin: 10px;
+};
+</style>
+
+<body>
+</head>
+<marquee> Ayudanos a encontrarles su hogar </marquee>
+
+   <hr/>
+<IMG SRC="Linda-garra-de-perro-con-coraz-n-de-melocot-n-Auto-adhesivo-con-dibujo-de-Animal.jpg_q50.jpg" width="35px" ALIGN="TOP">
+<div style="float:right" ><span class="log">Hola,<a href="DatosUser.html">usuario</a></span>  </div>
+
+
+<h1>PET TO THE RESCUE </h1>
+
+
+<h3>Administrador</h3>
+               <h2>Informacion personal</h2>
+               
+               <div class="container">
+               <form id="form" class="form">
+               <div class="form-control">
+               <label for="username">Nombre</label>
+               <input type="text" placeholder="Ingrese su nombre" id="username" disabled />
+               <i class="fas fa-check-circle"></i>
+               <i class="fas fa-exclamation-circle"></i>
+               <small></small>
+               </div>
+               
+               <div class="form-control">
+               <label for="lastname">Apellidos</label>
+               <input type="text" placeholder="Ingrese sus apellidos" id="lastname" disabled/>
+               <i class="fas fa-check-circle"></i>
+               <i class="fas fa-exclamation-circle"></i>
+               <small></small>
+               </div>
+               <div class="form-control">
+               <label for="email">Email</label>
+               <input type="email" placeholder="Ingrese su correo" id="email"disabled />
+               <i class="fas fa-check-circle"></i>
+               <i class="fas fa-exclamation-circle"></i>
+               <small></small>
+               </div>
+               <div class="form-control">
+               <label for="phone">Celular</label>
+               <input type="tel" pattern="^[9|8|7|6]\d{8}$"placeholder="Ingrese su celular" id="phone"disabled />
+               <i class="fas fa-check-circle"></i>
+               <i class="fas fa-exclamation-circle"></i>
+               <small></small>
+               </div>
+               <div class="form-control">
+               <label for="password">Contraseña</label>
+               <input type="password" placeholder="Ingrese contraseña" id="password"disabled/>
+               <i class="fas fa-check-circle"></i>
+               <i class="fas fa-exclamation-circle"></i>
+               <small></small>
+               </div>
+               <div class="form-control">
+               <label for="password2">Repetir contraseña</label>
+               <input type="password" placeholder="Repite contraseña" id="password2"disabled/>
+               <i class="fas fa-check-circle"></i>
+               <i class="fas fa-exclamation-circle"></i>
+               <small></small>
+               </div>
+               <div class="form-control"disabled>
+               <label for="Country">Pais</label>
+               
+               <select>
+               <option value="">Seleccione</option>
+               </select>
+               <small></small>
+               </div>
+               
+               <div class="form-control">
+               <label for="adress">Direccion</label>
+               <input type="text" placeholder="Ingrese direccion" id="adress"disabled/>
+               <i class="fas fa-check-circle"></i>
+               <i class="fas fa-exclamation-circle"></i>
+               <small></small>
+              </div> 
+               </div>
+               
+                            </div>
+                                      <td colspan="4" id="tab-201">
+                            <div class="tabdiv" id="tabdiv-201">
+     <h2>Perdido!</h2>
+     Informacion de la mascota
+     <p>
+     <legend>Elige tipo</legend>
+     <select name="type" autofocus required>
+          <option ></option>
+     <option value="perro">Perro</option>
+     <option value="gato">Gato</option>
+     <option value="conejo">Conejo</option>
+     <option value="hamster">Hamster</option>
+     </select>
+     </fieldset>
+     <fieldset>
+     <legend>Elige raza</legend>
+     
+     <select name="breed" autofocus required>
+          <option ></option>
+     <option value="peq">Pequeño</option>
+     <option value="med">Mediano</option>
+     <option value="gr">Grande</option>
+     </select>
+     
+     
+     </fieldset>
+     </p>
+     <fieldset>
+     <legend>Datos especificos</legend>
+     <label for="name">Nombre</label>
+     <input type="type" placeholder="Ingrese nombre " id="name" disabled/>
+     </p>
+     <label>Tamaño:</label>
+     <select name="Tamaño" autofocus required >
+          <option ></option>
+            <option value="peq">Pequeño</option>
+            <option value="med">Mediano</option>
+            <option value="gr">Grande</option>
+     </select>
+     </p>
+         <label for="age">Edad</label>
+         <input type="number" placeholder="Ingrese edad " id="age" disabled/>
+     </fieldset>                 
+	 <br>
+			   <form method="post" name="Aceptar" action="">
+               <input type="submit" style="Background-color:green" name="Aceptar" value="Aceptar">
+               
+               <form method="post" name="Rechazar" action="">
+               <input type="submit" style="Background-color:red" name="Rechazar" value="Rechazar">
+
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <div align="left">
+	 <input type="button" name="volver" value="Volver">
+	 </div>
+</body>
+</html> 
